@@ -14,12 +14,14 @@ const mealItemProps = {
 }
 
 return <MealItem {...mealItemProps}/>
+// return <MealItem id={item.id} title={item.title} imageUrl={item.imageUrl}/>
 }
 
 
     return <FlatList
     data={items}
     renderItem={renderMealItem}
+    // renderItem={hafsa => console.log("-->",hafsa.item)}
     />
 }
 

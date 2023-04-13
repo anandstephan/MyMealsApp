@@ -20,4 +20,5 @@ numColumns={2}
 />
 }
 
+
 export default CategoriesScreen
